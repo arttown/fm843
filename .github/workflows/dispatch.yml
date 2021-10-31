@@ -2,7 +2,7 @@ name: Dispatch
 on: push
 
 jobs:
-  build:
+  dispatch:
     runs-on: ubuntu-latest
     steps:
       - run: |
